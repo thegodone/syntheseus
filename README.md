@@ -35,7 +35,7 @@ To install `syntheseus` with all the extras, run
 ```bash
 conda env create -f environment_full.yml
 conda activate syntheseus-full
-
+pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
 pip install "syntheseus[all]"
 ```
 
