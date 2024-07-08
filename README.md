@@ -38,6 +38,7 @@ conda activate syntheseus-full
 mamba install -c intel mkl
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.0.1+cu118.html
 pip install "syntheseus[all]"
+pip install PyYAML
 ```
 
 See [here](https://microsoft.github.io/syntheseus/installation) if you prefer a more lightweight installation that only includes the parts you actually need.
